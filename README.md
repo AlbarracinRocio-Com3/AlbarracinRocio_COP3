@@ -1,5 +1,7 @@
 # AlbarracinRocio_COP3
-TRABAJO - CURRICULUM VITAE 
+TRABAJO - CURRICULUM VITAE   
+
+
 Hola Profes! Estoy bastante perdida, creo no ser la unica. Les queria dejar mis dudas con respecto a lo que vine haciendo.
 
 -Se me complico mucho el poder subir los archivos a git desde git bash here, si bien segui cada paso del video y lo volvi a ver una y otra vez y no conseguia que se subiera, termine arrastrando el archio de manera manual. 
