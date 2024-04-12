@@ -1,2 +1,3 @@
 # AlbarracinRocio_COP3
-Hola Emi!! ya realice la corrección, intente subir el archivo como lo explico aime pero como veras tuve problemas y se subio otra carpeta de "ejercicios" con el index viejo. Intete subirlo varias veces y cuando se logro paso eso, como puedo solucionarlo? porque por lo visto borro la carpeta y la crea nuevamente :´(
+Hola profes!! la verdad estuve trabajando mucho para poder entender flexfox y aun tengo dudas, en este caso algo que me esta pasando es que no consigo acomodar por asi decirlo los bloques de texto para que esten de una manera mas ordenada.
+Tambien me esta pasando que hay una etiqueta div que no la cerre porque cuando la cierro todo se me rompe por asi decirlo :( nose que estoy haciendo mal.
