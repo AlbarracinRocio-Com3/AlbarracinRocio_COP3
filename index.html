@@ -6,12 +6,12 @@
     <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header id="cabecera">
-        <img src="img/tato.png" width="40px" height="40px" alt="">
-    </header>
+    <header id="cabecera" class="header">
+  <img src="img/tato.png" alt="">
+	</header>
     <nav class="botonera">
         <ul>
-            <li><a href="#">Sobre mí</a></li>
+            <li><a href="#sobremi" id="sobremi-button">Sobre mí</a></li>
             <li><a href="#">Educación</a></li>
             <li><a href="#">Otros estudios</a></li>
             <li><a href="#">Experiencia</a></li>
@@ -19,24 +19,28 @@
         </ul>
     </nav>
     <main>
-			<div>
-                <img src="img/yo.jpg" width="200px" height="250px" alt="">
-			</div>
-		<section>
-                <h2>Rocio Soledad Albarracin</h2>
-                <ul class="body">
-                    <li>Edad: 25 años</li>
-                    <li>Estudiante de diseño y comunicación visual</li>
-                    <li>(54) 1169514457</li>
-                    <li>roxisoledad07@gmail.com</li>
-                    <li>El Tordo 1955, San Jose, Temperley.</li>
-                </ul>
-			<div>
+			 <div class="flex-container¨">
+				<div>
+                	<img src="img/yo.jpg" width="200px" height="250px" alt="">
+				 </div>
+				<div class="infomia">
+					 <h2>Rocio Soledad Albarracin</h2>
+				</div>
+				 <div class="textoprincipal">
+					 <ul>
+						<li>Edad: 25 años</li>
+						<li>Estudiante de diseño y comunicación visual</li>
+						<li>(54) 1169514457</li>
+						<li>roxisoledad07@gmail.com</li>
+						<li>El Tordo 1955, San Jose, Temperley.</li>
+					</ul>
+				 </div>
+				<div class="container"> 
+					<div class="sobremi" id="sobremi">
                     <h3>Sobre Mi</h3>
                     <p>Soy Estudiante de la carrera de Diseño y Comunicación Visual y Tatuadora. Trabajo con muchos estilos, pero lo que más me apasiona es el estilo black and grey, realismo en animales (que aún sigo ejercitando). Estudié aparte dibujo, busco seguir perfeccionándome siempre que pueda. Soy vegana hace más de diez años, madre de tres gatos. Hago deporte, me encanta jugar al fútbol y andar en bicicleta!</p>
 				</div>
-		</section>
-        <aside>
+		</div>
             <article>
                 <h3>Educación</h3>
                 <ul>
@@ -52,11 +56,15 @@
                 </ul>
             </article>
             <article>
-                <h3>Experiencia Laboral</h3>
-                <h5>MOVECEA - LATAM / Julio 2021 - Marzo 2022.</h5>
-                <p>Encargada de grabar cursos y editarlos, fotografía y generadora de contenido.</p>
-                <h5>Centro Educativo Alem / Asistente Educativo. Marzo 2020 - Julio 2023. / Meeks 429, Lomas De Zamora.</h5>
-                <p>Asesoramiento a distancia LATAM, asesoramiento presencial. Seguimiento del alumno, trámites administrativos/cobranzas. Manejo de redes, aplicaciones digitales, creación de contenidos, publicaciones.</p>
+				<ul>
+					<h3>Experiencia Laboral</h3>
+					<li><h5>MOVECEA - LATAM / Julio 2021 - Marzo 2022.</h5>
+					</li>
+					<li><p>Encargada de grabar cursos y editarlos, fotografía y generadora de contenido.</p></li>
+					<li><h5>Centro Educativo Alem / Asistente Educativo. Marzo 2020 - Julio 2023. / Meeks 429, Lomas De Zamora.</h5></li>
+					<li><p>Asesoramiento a distancia LATAM, asesoramiento presencial. Seguimiento del alumno, trámites administrativos/cobranzas. Manejo de redes, aplicaciones digitales, creación de contenidos, publicaciones.</p>
+					</li>
+				</ul>
             </article>
             <article>
                 <h3>Habilidades</h3>
@@ -72,16 +80,28 @@
                     <li>Manejo de Filmora</li>
                 </ul>
             </article>
-            <div class="habilidad">
-                <h5>Objetivo Laboral</h5>
+            <div>
+				<h4>Objetivo Laboral</h4>
                 <p>Soy una persona responsable. Mi objetivo es un puesto donde pueda mostrar mis habilidades, sumar experiencia, nuevos conocimientos. Tengo experiencia en trabajo en equipo.</p>
             </div>
-        </aside>
+			<aside>
+				<article>
+				<h2>Trabajos Realizados</h2>
+				</article>
+					<div>
+				   <h5>Libro Botanica Patagonica</h5>
+							<img src="img/libro.jpg" width="500" height="500" alt=""/>
+					<p>Realizado en Espacio Tipográfico II.</p>
+			   </div>
+				<div>
+				  <h5>Festival Urbano</h5>
+							<img src="img/diseño 2 entrega.jpg" width="300px" height="500px" alt=""/>
+				<p>Realizado en Taller de Diseño II.</p>
+			 </div>
     </main>
-    <footer>
+    <footer class="footer">
         <section>
             <h6>CURRICULUM VITAE PARA COMPUTACIÓN III /// TODOS LOS DERECHOS RESERVADOS Cátedra Wischñevsky</h6>
         </section>
     </footer>
 </body>
-</html>

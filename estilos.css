@@ -19,13 +19,6 @@
     padding: 10px;
     display: flex;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 nav {
     background-color: black;
     width: 100%;
@@ -65,7 +58,17 @@ nav ul li {
     color: black;
     background-color: #B90BB3;
 }
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
 
+.header img {
+  height: 40px;
+	width: 40px; 
+}
 main {
     background-color: khaki;
     width: 100%;
@@ -73,24 +76,6 @@ main {
     justify-content: space-between;
     padding: 20px;
 }
-
-section {
-    background-color: aquamarine;
-    width: 65%;
-    margin-right: 20px;
-}
-
-aside {
-    width: 30%;
-}
-
-.infomia {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "HelveticaNeueLT Std Bold Outln", Piazzolla, "Piazzolla Thin";
-}
-
 .profile-imagen {
     float: left;
     width: 100%;
@@ -98,27 +83,65 @@ aside {
     overflow: hidden;
     margin-right: 20px;
 }
-
+.infomia{
+	margin-left: 10;	
+}
+.textoprincipal{
+	margin-left: 60px;
+}
 .datosmios {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+	align-items:stretch;
+	flex:wrap;
 }
-.flex.container{
+.flex-container¨{ 
+	margin:0 auto;
 	display: flex;
 	flex-direction:row;
-	justify-content:flex-start;
-}
-.c{
-	align-self:f
+	justify-content:center;
+	flex-wrap: wrap;
 }
 .container {
-    max-width: 100%;
-    height: 100px;
-    margin: 40px auto;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
+.sobremi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.sobremi h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.sobremi p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.sobremi {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.botonera a {
+  color: black;
+}
+
+.botonera a:hover {
+  color: white;
+}
 .habilidad {
     display: flex;
     flex-direction: column;
@@ -130,4 +153,16 @@ aside {
 h2 {
     padding: 0px 0px 10px 100px;
     font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer h6 {
+  margin: 0;
 }
