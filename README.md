@@ -1,3 +1,3 @@
 # AlbarracinRocio_COP3
-Hola profes!! la verdad estuve trabajando mucho para poder entender flexfox y aun tengo dudas, en este caso algo que me esta pasando es que no consigo acomodar por asi decirlo los bloques de texto para que esten de una manera mas ordenada.
-Tambien me esta pasando que hay una etiqueta div que no la cerre porque cuando la cierro todo se me rompe todo por asi decirlo :( nose que estoy haciendo mal.
+ENTREGA FINAL.
+Hola profes les dejo mi entrega final, quiero acalarar que tengo un televisor de monitor (32pulgadas) el tamaño de mi pantalla tiene un resolucion de 1920 x 1080, tambien se que tengo un scrolll horizontal tengo un fondo blanco y nunca lo pude sacar, en el archivo zip van encontrar una carpeta con una imagen de como se ve mi pantalla. Gracias!!
