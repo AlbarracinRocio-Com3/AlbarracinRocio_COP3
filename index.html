@@ -20,52 +20,56 @@
                 <li><a href="#">Habilidades</a></li>
             </ul>
         </nav>
-        <main><!-- yo en ves de tanto <article>  pondria 1 solo y dentro de este varias <section> y algun <div> te sera mas facil simplificar asi las etiquetas y aplicarles el correcto flexbox-->
-            <div class="flex-container¨">
-                <img src="img/yo.jpg" width="200px" height="250px" alt="">
-            </div>
-            <div class="infomia">
-                <h2>Rocio Soledad Albarracin</h2>
-			</div>
-            <div class="textoprincipal">
+        <main>
+			<div class="container">
+				<img src="img/yo.jpg" width="250" height="300" alt=""/>
+				<div class=info>
+					<h1>Rocio Soledad Albarracin</h1>
+				</div>
+				<div class=infomia>
 				<ul>
-				    <li>Edad: 25 años</li>
-					<li>Estudiante de diseño y comunicación visual</li>
-					<li>(54) 1169514457</li>
-					<li>roxisoledad07@gmail.com</li>
-					<li>El Tordo 1955, San Jose, Temperley.</li>
+						<li>Edad: 25 años</li>
+						<li>Estudiante de diseño y comunicación visual</li>
+						<li>(54) 1169514457</li>
+						<li>roxisoledad07@gmail.com</li>
+						<li>El Tordo 1955, San Jose, Temperley.</li>
 				</ul>
+				</div>
 			</div>
-			<div class="container"> 
-				<div class="sobremi" id="sobremi">
+			<article>
+				<div class="sobremiyo">
+					<font size="+1">	
                     <h3>Sobre Mi</h3>
-                    <p>Soy Estudiante de la carrera de Diseño y Comunicación Visual y Tatuadora. Trabajo con muchos estilos, pero lo que más me apasiona es el estilo black and grey, realismo en animales (que aún sigo ejercitando). Estudié aparte dibujo, busco seguir perfeccionándome siempre que pueda. Soy vegana hace más de diez años, madre de tres gatos. Hago deporte, me encanta jugar al fútbol y andar en bicicleta!</p>
-                </div>
-            </div>
-            <article>
+                    <p>Soy Estudiante de la carrera de Diseño y Comunicación Visual y Tatuadora. Trabajo con muchos estilos, pero lo que más me apasiona es el estilo black and grey, realismo en animales (que aún sigo ejercitando). Estudié aparte dibujo, busco seguir perfeccionándome siempre que pueda. Soy vegana hace más de diez años, madre de tres gatos. Hago deporte, me encanta jugar al fútbol y andar en bicicleta!</p>				</article> 
+			<section class="informacioncolumnas">
+				<div>			
+				<article>
                 <h3>Educación</h3>
                 <ul>
                     <li>Media Nº14 Tomás Espora, Temperley / Bachillerato en Cs. Sociales.</li>
                     <li>Universidad Nacional De Lanus / Licenciatura en Diseño y Comunicación Visual. Actualmente cursando.</li>
                 </ul>
-            </article>
-            <article>
+				</article>
+				<article>
                 <h3>Otros Estudios</h3>
                 <ul>
                     <li>Centro Educativo Alem / Especialista en soporte informático. Abril 2023/ Actualmente.</li>
                     <li>Usina De Fotógrafos / Fotografía.</li>
                 </ul>
-            </article>
-            <article>
+				</article>
+					<article>
                 <h3>Experiencia Laboral</h3>
-			    <ul> <!-- OJO EL TAMAÑO DE TU TITULADO SE DEFINE APLICANDO CSS NO USANDO LAS H y tmb si saltas a una h5 sin que antes haya habido h4 seria un error -->
+			    <ul>
 				    <li><h5>MOVECEA - LATAM / Julio 2021 - Marzo 2022.</h5></li>
                     <li><p>Encargada de grabar cursos y editarlos, fotografía y generadora de contenido.</p></li>
-                    <li><h5>Centro Educativo Alem / Asistente Educativo. Marzo 2020 - Julio 2023. / Meeks 429, Lomas De Zamora.</h5></li>
-                    <li><p>Asesoramiento a distancia LATAM, asesoramiento presencial. Seguimiento del alumno, trámites administrativos/cobranzas. Manejo de redes, aplicaciones digitales, creación de contenidos, publicaciones.</p></li>
-                </ul>
-            </article>
-            <article>
+                    <li><h4>Centro Educativo Alem / Asistente Educativo. Marzo 2020 - Julio 2023. / Meeks 429, Lomas De Zamora.</h4></li>
+                    <li><p>Asesoramiento a distancia LATAM, asesoramiento presencial. Seguimiento del alumno, trámites administrativos/cobranzas. Manejo de redes, aplicaciones digitales, creación de contenidos, publicaciones.</p>
+				</li>
+			</ul>
+		</article>
+			</div>
+			<div>
+				<article>
                 <h3>Habilidades</h3>
                 <ul>
                     <li>Manejo de paquete office</li>
@@ -77,33 +81,40 @@
                     <li>Manejo de Illustrator</li>
                     <li>Manejo de InDesign (básico)</li>
                     <li>Manejo de Filmora</li>
-                </ul>
-            </article>
-            <div>
-			    <h4>Objetivo Laboral</h4>
-                <p>Soy una persona responsable. Mi objetivo es un puesto donde pueda mostrar mis habilidades, sumar experiencia, nuevos conocimientos. Tengo experiencia en trabajo en equipo.</p>
-            </div>
+				</ul>
+					<h4>Objetivo Laboral</h4>
+					<p>Soy una persona responsable. Mi objetivo es un puesto donde pueda mostrar mis habilidades, sumar experiencia, nuevos conocimientos. Tengo experiencia en trabajo en equipo.</p>
+		   </article>
+			</div>
+		</section>
             <aside>
-            <!-- lo que estas forzando aca solo usando html se resolveria mas simple al aplicar correctamente flexbox ya que el aside seria como una segunda columna de contenido dentro de tu cv -->
-			    <article>
-				    <h2>Trabajos Realizados</h2>
-			    </article>
-			    <div>
-				    <h5>Libro Botanica Patagonica</h5>
-				    <img src="img/libro.jpg" width="500" height="500" alt=""/>
-				    <p>Realizado en Espacio Tipográfico II.</p>
-			    </div>
-			    <div>
-                    <h5>Festival Urbano</h5>
-				    <img src="img/diseño 2 entrega.jpg" width="300px" height="500px" alt=""/>
-                    <p>Realizado en Taller de Diseño II.</p>
-                </div>
-            </aside>  <!-- OJO NO HABIAS CERRADO LA ETIQUETA ASIDE -->
-        </main>
-        <footer class="footer">
-          <!-- mejor una p  y aplicarle una class para que este en bold white y al contenedor aplicarle tmb class de color negro -->
+    <article class="proyecos">
+      <div class="imagenes">
+        <h2 class="title">Trabajos Realizados</h2>
+        <div class="project">
+          <h5 class="subtitle">Libro Botanica Patagonica</h5>
+          <figure>
+            <img src="img/libro.jpg" width="350" height="280" alt=""/>
+	<figcaption>
+	Realizado en Espacio Tipográfico II.</figcaption>
+          </figure>
+        </div>
+        <div class="project">
+          <h5 class="subtitle">Festival Urbano</h5>
+          <figure>
+<img src="img/fasiculo.jpg" width="350"	height="280"alt=""lt=""/>
+<figcaption>Realizado en Taller de Diseño II.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </article>
+		</aside>
+		<footer>
+			<div class="footer-centered">
             <h6>CURRICULUM VITAE PARA COMPUTACIÓN III /// TODOS LOS DERECHOS RESERVADOS Cátedra Wischñevsky</h6>
+			</div>
         </footer>
+		</main>
     </body>
 </html>
 <!-- OJO NO HABIAS CERRADO LA ETIQUETA html -->
